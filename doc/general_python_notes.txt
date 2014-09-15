@@ -1,0 +1,9 @@
+
+Python is caseSensitive
+comments in python starts with #
+
+whitespace (indent) sensitive
+
+Escape codes  \n \t \"
+
+

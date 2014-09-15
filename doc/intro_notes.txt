@@ -1,11 +1,8 @@
-Instructor - Peter
-
+Instructor - Peter Lovette
 
 
 * Anaconda Python distribution with science packages bundled.
 http://continuum.io/downloads
-
-
 
 * Support for complex numbers
 
@@ -13,5 +10,7 @@ Exmaple:
 (1 +2j) * (2 + 3j)
 
 * Python docs online
+
+
 
 
