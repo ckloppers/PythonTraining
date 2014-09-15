@@ -1,13 +1,29 @@
 
-Python is caseSensitive
-comments in python starts with #
+Day 1:
 
-whitespace (indent) sensitive
+    - Python is caseSensitive
+    - comments in python starts with #
 
-Escape codes  \n \t \"
+    - whitespace (indent) sensitive
 
-Syntax difference between python 2 and 3
+    - Escape codes  \n \t \"
 
-python 3 have functions for most statements
+    Syntax difference between python 2 and 3
 
-exmaple: print("Hello, world") is python 3 syntax
+    python 3 have functions for most statements
+
+    example: print("Hello, world") is python 3 syntax
+
+
+
+    Dont have to pre-declare variables
+    caseSensive variables
+
+    commandLine input - raw_input() # python 2
+                        input() # python 3
+
+    Verbatim block """ """
+
+    concatenate strings without plus "test", "test2" with generate "testtest2"
+
+    python float is a c double
