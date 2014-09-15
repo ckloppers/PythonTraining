@@ -27,3 +27,13 @@ Day 1:
     concatenate strings without plus "test", "test2" with generate "testtest2"
 
     python float is a c double
+
+
+    Get Python 3 behaviour
+        from __future__ import division
+        from __future__ import print_function
+
+        import __future__
+        dir(__future__)
+
+
