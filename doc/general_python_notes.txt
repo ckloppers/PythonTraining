@@ -6,4 +6,8 @@ whitespace (indent) sensitive
 
 Escape codes  \n \t \"
 
+Syntax difference between python 2 and 3
 
+python 3 have functions for most statements
+
+exmaple: print("Hello, world") is python 3 syntax
