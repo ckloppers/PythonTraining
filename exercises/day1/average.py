@@ -9,4 +9,4 @@ number3 = raw_input('Please enter the third number: ')
 ave = (float(number1) + float(number2) + float(number3)) / 3.0
 
 
-print 'The average of these three numbers is %f' % (ave)
+print 'The average of these three numbers is %.2f' % (ave)
