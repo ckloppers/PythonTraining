@@ -2,8 +2,12 @@
 # Author: Corne Kloppers
 
 
-name = raw_input("Please enter your name: ")
-age = raw_input("Please enter your age: ")
+name = raw_input('Please enter your name: ')
+age = raw_input('Please enter your age: ')
 
-print "Hello", name, "! Gee, you are only", age, "years old!"
-print "And next birthday you will be", int(age) + 1
+print 'Hello, %s! Gee, you are only %d years old!' % (name, int(age))
+
+print 'And next birthday you will be %d' % (int(age) + 1)
+
+
+
