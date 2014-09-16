@@ -4,7 +4,7 @@
 isANumber = False
 while not isANumber:
     number = raw_input('Please enter a number: ')
-    if number.isdigit():
+    if number.strip().isdigit():
         isANumber = True
 
 diameter = int(number) * 2
