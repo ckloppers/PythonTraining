@@ -5,9 +5,9 @@ email = raw_input('Email: ')
 
 nameList = name.split(' ')
 
-regEx = '^' + nameList[0] + '\.' + nameList[1] + email[email.find('@'):-1]
+regEx = '^' + nameList[0] + '\.*' + nameList[1] + '@.[a-z]\..[a-z]$'
 
 if re.search(regEx, email, re.IGNORECASE):
     print 'Valid email, name match email address'
 else:
-    print 'name does not match email address'
+    print 'Not a valid email address'
