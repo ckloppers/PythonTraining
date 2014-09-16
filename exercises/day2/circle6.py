@@ -1,25 +1,13 @@
 #!/Users/klo019/anaconda/bin/python
 # Author: Corne Kloppers
 
-import math
-
-def calcDiameter(radius):
-    return radius * 2
-
-def calcCircumference(radius):
-    return calcDiameter(radius) * math.pi
-
-def calcArea(radius):
-    return math.pi * radius ** 2
-
-def calVolume(radius):
-    return 4.0/3.0 * math.pi * (radius ** 3)
+import circleFn as cF
 
 radius = float(raw_input('Please enter a number: '))
-diameter = calcDiameter(radius)
-circumference = calcCircumference(radius)
-area = calcArea(radius)
-volume = calVolume(radius)
+diameter = cF.calcDiameter(radius)
+circumference = cF.calcCircumference(radius)
+area = cF.calcArea(radius)
+volume = cF.calVolume(radius)
 
 
 print 'A circle with a radius of %6.2f cm ' % radius
