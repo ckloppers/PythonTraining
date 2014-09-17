@@ -1,0 +1,7 @@
+
+RegEx verbose mode important. can split regex over multiple lines and also add in comments
+
+Chapter :
+
+Object oriented programming
+
