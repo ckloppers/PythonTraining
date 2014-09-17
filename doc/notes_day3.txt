@@ -1,0 +1,32 @@
+
+
+global variables declared with global key word
+
+DON'T USE GLOBAL!!
+
+can get nested functions
+
+reverse string
+
+s[::-1]
+
+comma makes a tuple
+
+t = 1,  # tuple
+
+
+build in types:
+
+int
+float
+list
+tuple
+dict
+complex
+str
+
+set (un-ordered, unique values) - mutable
+forzenset - immutable
+
+
+page 2-20 - cool tricks
