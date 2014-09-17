@@ -1,4 +1,3 @@
-import time
 
 # Data will be stored in the data dict
 peopleList = []
