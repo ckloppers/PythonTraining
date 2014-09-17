@@ -8,3 +8,4 @@ intNumList = map(int, numbersList)
 
 print reduce(multiPlyNumbers, intNumList)
 
+print reduce((lambda a,b: a*b), intNumList)

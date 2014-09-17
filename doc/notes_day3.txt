@@ -30,3 +30,7 @@ forzenset - immutable
 
 
 page 2-20 - cool tricks
+
+
+List Comprehension
+
