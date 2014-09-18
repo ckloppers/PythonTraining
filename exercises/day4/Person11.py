@@ -12,9 +12,15 @@ class Person(object):
         """ Method destructor """
         print 'Im not dead yet'
 
+
+    # Overloaded methods
     def __str__(self):
         """ toString method """
         return self.name
+
+    def __cmp__(self, other):
+        """ Sort based on Age """
+        return cmp(self.age, other.age)
 
     # Property Methods
     @property
@@ -30,6 +36,11 @@ class Person(object):
         return self.name
 
     def setAge(self, newAge):
+        try:
+            int(newAge)
+        except:
+            raise TypeError
+
         if newAge in range(0, 970):
             self.age = newAge
         elif newAge > 969:
@@ -58,7 +69,12 @@ class Person(object):
 if __name__ == '__main__':
     p = Person()
     p.setName('Sam')
-    p.setAge(109090)
+    p.setAge('10')
+
+    x = Person()
+    x.setAge(20)
+
+    print 'Age compare:',cmp(p,x)
 
     #p.happyBirthday()
 
