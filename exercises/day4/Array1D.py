@@ -2,7 +2,7 @@ import numpy as np
 
 numbers = raw_input('Numbers: ')
 
-numbersList = map(int,numbers.split(' '))
+numbersList = map(int, numbers.split())
 
 npArray = np.array(numbersList)
 
