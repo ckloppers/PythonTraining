@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="1465944936">
+    <data-source source="LOCAL" name="plusplus" uuid="668d180e-1012-44e2-913a-dd9301161624">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/exercises/db_stuff/plusplus</jdbc-url>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+
